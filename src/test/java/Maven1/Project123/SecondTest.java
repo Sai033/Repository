@@ -9,7 +9,7 @@ public class SecondTest extends BaseClass {
 @Test
 public void walk() {
 	d.findElement(By.xpath("//input[@id='UserName']")).sendKeys("SG21433");
-	d.findElement(By.xpath("//input[@id='Pasword']")).sendKeys("Sai@033614");
+	d.findElement(By.xpath("//input[@id='Password']")).sendKeys("Sai@033614");
 	d.findElement(By.xpath("//input[@id='btnLogIn']")).click();
 }
 }
